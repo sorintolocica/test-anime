@@ -1,0 +1,34 @@
+﻿@page "/post/{id:int}"
+@inject IPostService PostService
+
+@if(post == null)
+{
+    <div class="text-center">
+        <div class="spinner-border" role="status">
+        </div>
+    </div>
+
+}
+else
+{
+<div class="post-anime">
+<p class="titlu-anime">@post.Name</p>
+<br>
+    <iframe allowfullscreen="true" src="@post.Video" width="1245" height="600" ></iframe>
+</div>
+<div class="btn-next-and-previous">
+    <button type="button" class="btn-previous">Episodul precedent</button>
+    <button type="button" class="btn-next">Episodul urmator</button>
+</div>
+}
+@code {
+	private Post? post = null;
+
+	[Parameter]
+	public int Id{ get; set; }
+
+    protected override async Task OnParametersSetAsync()
+	{
+		post = PostService.Posts.Find(p => p.Id == Id);
+	}
+}

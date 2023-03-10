@@ -1,0 +1,18 @@
+.logo-image {
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.navbar {
+    background: #293043;
+    background-color: #293043;
+    border-bottom: 2px solid #9e00b5;
+    border-radius: 0 0 5px 5px;
+}
+
+.nav-link{
+    color: #fff;
+}

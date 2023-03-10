@@ -1,0 +1,12 @@
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\bin\Debug\net6.0\AnimeRU.Shared.deps.json
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\bin\Debug\net6.0\AnimeRU.Shared.dll
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\bin\Debug\net6.0\AnimeRU.Shared.pdb
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.csproj.AssemblyReference.cache
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.AssemblyInfoInputs.cache
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.AssemblyInfo.cs
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.dll
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\refint\AnimeRU.Shared.dll
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\AnimeRU.Shared.pdb
+C:\Users\Sorin\source\repos\AnimeRU\AnimeRU\Shared\obj\Debug\net6.0\ref\AnimeRU.Shared.dll

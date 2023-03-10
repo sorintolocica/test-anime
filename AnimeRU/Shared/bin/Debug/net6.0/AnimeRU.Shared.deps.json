@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AnimeRU.Shared/1.0.0": {
+        "runtime": {
+          "AnimeRU.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnimeRU.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

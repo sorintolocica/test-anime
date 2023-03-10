@@ -1,0 +1,38 @@
+﻿@inject IPostService PostService
+
+<div class="container-anime">
+    <p class="text-episoade">Episoade recente</p>
+
+<div class="row row-cols-1 row-cols-md-5 g-4">
+
+    @if(PostService.Posts == null || PostService.Posts.Count == 0)
+{
+            <div class="text-center">
+                <div class="spinner-border" role="status">
+                </div>
+            </div>
+        }
+        else
+        {
+            @foreach (var post in PostService.Posts)
+            {
+            <div class="col">
+      <div class="card">
+        <img src="@post.ImageURL" class="card-img-top" alt="@post.Name">
+        <div class="card-body">
+            <a href="/post/@post.Id">
+          <h5 class="card-title">@post.Name</h5></a>
+        </div>
+      </div>
+    </div>
+        }
+        }
+</div>
+</div>
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        await PostService.GetPosts();
+    }
+}
